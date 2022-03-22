@@ -24,51 +24,56 @@
                <h2 class="text-center text-light">Contact Me</h2>
            </div>
            <!-- First and Last Name 1 row 2 columns -->
-            <div class="row bg-light row-cols-1 row-cols-md-2">
-                <div class="col">
-                    <div class="mb-1 mt-3 mt-md-3">
-                        <label for="formControlInput1" class="form-label">First Name</label>
-                        <input type="name" class="form-control" id="formControlInput1" placeholder="First Name">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="mb-1 mt-md-3">
-                        <label for="formControlInput2" class="form-label">Last Name</label>
-                        <input type="name" class="form-control" id="formControlInput2" placeholder="Last Name">
-                    </div>
-                </div>
-                <!-- Columns for Email and Phone -->
-                <div class="col">
-                    <div class="mb-1">
-                        <label for="formControlInput3" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="formControlInput3" placeholder="Email">
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="mb-1">
-                        <label for="formControlInput4" class="form-label">Phone (Optional)</label>
-                        <input type="phone" class="form-control" id="formControlInput4" placeholder="Phone">
-                    </div>
-                </div>
-            </div>
-            <!-- Subject, Message and Submit Button row and columns -->
-            <div class="row bg-light">
-                <div class="col-12">
-                    <div class="mb-1">
-                        <label for="formControlInput5" class="form-label">Subject</label>
-                        <input type="subject" class="form-control" id="formControlInput5" placeholder="Subject">
-                    </div>
-                </div>
-                <div class="col-12">
-                    <div class="mb-1">
-                        <label for="formControlInput6" class="form-label">Message</label>
-                        <textarea class="form-control" id="formControlInput6" cols="30" rows="2" aria-label="With Textarea"></textarea>
-                    </div>
-                </div>
-                <div class="col mb-1 mt-1">
-                    <button type="button" class="btn btn-primary">Submit</button>
-                </div>
-            </div>
+           <div class="border-2 border border-info shadow-lg p-2 bg-light">
+               <form action="#">
+                   <div class="row row-cols-1 row-cols-md-2">
+                       <div class="col">
+                           <div class="mb-1 mt-1 mt-md-1">
+                               <label for="formControlInput1" class="form-label">First Name</label>
+                               <input type="name" class="form-control" id="formControlInput1" placeholder="First Name">
+                           </div>
+                       </div>
+                       <div class="col">
+                           <div class="mb-1 mt-md-1">
+                               <label for="formControlInput2" class="form-label">Last Name</label>
+                               <input type="name" class="form-control" id="formControlInput2" placeholder="Last Name">
+                           </div>
+                       </div>
+                       <!-- Columns for Email and Phone -->
+                       <div class="col">
+                           <div class="mb-1">
+                               <label for="formControlInput3" class="form-label">Email</label>
+                               <input type="email" class="form-control" id="formControlInput3" placeholder="Email">
+                           </div>
+                       </div>
+                       <div class="col">
+                           <div class="mb-1">
+                               <label for="formControlInput4" class="form-label">Phone (Optional)</label>
+                               <input type="phone" class="form-control" id="formControlInput4" placeholder="Phone">
+                           </div>
+                       </div>
+                   </div>
+                   <!-- Subject, Message and Submit Button row and columns -->
+                   <div class="row">
+                       <div class="col-12">
+                           <div class="mb-1">
+                               <label for="formControlInput5" class="form-label">Subject</label>
+                               <input type="subject" class="form-control" id="formControlInput5" placeholder="Subject">
+                           </div>
+                       </div>
+                       <div class="col-12">
+                           <div class="mb-1">
+                               <label for="formControlInput6" class="form-label">Message</label>
+                               <textarea class="form-control" id="formControlInput6" cols="30" rows="2" aria-label="With Textarea"></textarea>
+                           </div>
+                       </div>
+                       <div class="col mb-1 mt-1">
+                           <button type="submit" class="btn btn-primary">Submit</button>
+                       </div>
+                   </div>
+    
+               </form>
+           </div>
        </div>
 
     <!-- Bootstrap JS -->
